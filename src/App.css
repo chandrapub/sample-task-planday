@@ -1,0 +1,69 @@
+.app {
+  text-align: center;
+  color: #072b3b;
+}
+
+header  {
+  color: #199BD7;
+}
+
+.inputs {
+  width: 80%;
+  text-align: left;
+  line-height: 2rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="submit"] {
+  position: relative;
+  left: 5%;
+  width: 30%;
+  margin-top: 1rem;
+  background-color: #a2d5ec;
+  border-color: transparent;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.data-list {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+}
+
+.list-item {
+  background-color: #c1e3f3;
+  margin: 15% auto 0;
+  border: 1px solid transparent;
+  border-radius: 15px 0 15px;
+}
+
+.list-item img {
+  height: 15rem;
+  width: 100%;
+  border-radius: 0 0 15px;
+}
+
+nav {
+  margin-bottom: 1em;
+  width: 25%;
+  margin: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.pagination a {
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20%;
+  background-color: #9acee6;
+}
