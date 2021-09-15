@@ -156,7 +156,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Choose your tagline</h1>
+        <h1>Choose your tagline...</h1>
       </header>
       <div className="inputs">
         <AddItem getNewTagline={getNewTagline} />

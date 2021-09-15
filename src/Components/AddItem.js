@@ -29,7 +29,7 @@ export default function SearchItem({getNewTagline}) {
     }
     return (
         <div>
-            <h3>Create a new tagline</h3>
+            <h3>Create tagline</h3>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="title">Title:</label>
